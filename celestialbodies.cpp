@@ -10,7 +10,7 @@ using namespace std;
 class celestialBody{
     public:
     double mass, radius, density, spin, distance_from_earth, surface_temp;
-    string major_composition;
+    string major_composition;                                             //major elements found in the planet
     
     double surfaceGravity(){
         return G*mass/radius*radius;
